@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    width: 450px;
+    padding: 50px 30px 30px;
+    background-color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.top h2 {
+    font-family: "Prompt";
+    font-size: 70px;
+    line-height: 1;
+    color: #3B8ACF;
+}
+
+.line {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background-color: #746e6e;
+}
+
+.top p {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+.amsterdam-text {
+    text-align: right;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
